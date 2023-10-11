@@ -1,2 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/oB7VDeFN)
-# ExplorationActivity1
+# Exploration Activity 1
+
+Hello! I am Anh 👋
+
+This repository is my work for the Exploration Activity #1 of CS2613 - Fall 2023 - University of New Brunswick, in which I will be doing some game development using Python.
+
+## Overview
+
+For this Exploration Activity, I will be diving deep into **Pyglet** - a popular Python library for game development 
+
+Specifically, I will be recreating the classic snake game for the purpose of learning this library and its features.
+
+## Snake game
