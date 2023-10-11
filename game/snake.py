@@ -17,9 +17,9 @@ CELL_SIZE = 20
 # Maximum number of obsticles generated
 MAX_OBSTACLE = 5
 # Maximum number of blocks/segments for each obsticles
-MAX_OBSTACLE_SEGMENT = 6
+MAX_OBSTACLE_SEGMENT = 4
 # The rate at which the screen updates, this also means how fast your snake will move
-REFRESH_RATE = 1/15
+REFRESH_RATE = 1/13
 
 window = Window(WINDOW_WIDTH, WINDOW_HEIGHT)
 window.set_caption("Snake")
@@ -191,6 +191,7 @@ def game_over_condition():
             condition3 = True
     return condition1 or condition2 or condition3
 
+# Sounds used in the game
 eat = resource.media('sound/eat.mp3', streaming=False)
 crash = resource.media('sound/crash.wav', streaming=False)
 bgm = resource.media('sound/bgm.mp3')
