@@ -4,7 +4,7 @@ Hello! I am Anh 👋
 
 This repository is my work for the Exploration Activity #1 of CS2613 - Fall 2023 - University of New Brunswick, in which I will be doing some game development using Python.
 
-## Overview
+## About this project
 
 For this Exploration Activity, I will be diving deep into **Pyglet** - a popular Python library for game development. 
 
@@ -15,7 +15,7 @@ Specifically, I will be recreating the classic snake game for the purpose of lea
   <img src="https://github.com/CS2613-FA23/explorationactivity1-anh-tran2106/blob/main/gif/snake_gif.gif" alt="animated" />
 </p>
 
-This snake game demonstrates the functionality of [Pyglet](https://pyglet.org/), allowing the uses of common game development tools using Python.
+This snake game demonstrates the functionality of [Pyglet](https://pyglet.org/), allowing the uses of common game development tools often seen in game engines with Python.
 
 ## Getting Started
 
@@ -43,4 +43,4 @@ This will also help me get a little feel for creating games and help kick start 
 
 After launching the game, simply start by pressing any of the arrow keys on your keyboard to move.
 
-Your objective is to eat as many 🍎 as you can and avoid collision with the obsticles and the edges of the screen. Good luck!
+Your objective is to eat as many 🍎 as you can while avoiding collision with the obsticles and the edges of the screen. Good luck!
