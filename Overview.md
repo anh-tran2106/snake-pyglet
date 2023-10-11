@@ -2,7 +2,7 @@
 
 ## Library Selection
 
-For this Exploration Activity, I decided on Pyglet as my library to research on. 
+For this Exploration Activity, I decided on Pyglet as my library of choice to research on. 
 
 ## Pyglet
 
@@ -22,6 +22,10 @@ window = window(WINDOW_WIDTH, WINDOW_HEIGHT)
 def on_draw():
     window.clear()
     draw_something(x, y, size)
+
+def update(dt):
+    snake_x += snake_dx
+    snake_y += snake_dy
 
 clock.schedule_interval(update, 1/15)
 
@@ -52,6 +56,7 @@ def on_key_press(symbol, modifiers):
         if snake_dx == 0:
             snake_dx = cell_size
             snake_dy = 0
+...
 ```
 4. Using the `resource` module to import sound effects into the project and `media` module to play sounnds during the game
 
@@ -88,13 +93,13 @@ def draw_score():
 ```
 ## When was Pyglet created
 
-After a little digging on the internet, I have found that there is little information about when Pyglet was first released on Wikipedia or any of other sources. However, upon looking at the license file in the Pyglet open-source repository on github, Pyglet dates back to around 2006 and was first created by Alex Holkner.
+After a little digging on the internet, I have found that there is little information about when Pyglet was first released on Wikipedia or any other online articles/sources. However, upon looking at the license file in the Pyglet open-source repository on github, Pyglet dates back to around 2006 and was first created by Alex Holkner [[1]](https://github.com/pyglet/pyglet/blob/master/LICENSE).
 
 ## Why I chose Pyglet
 
-There were really only two options that I had while choosing which Python library to use for my project, which was Pyglet and Pygame. While Pygame is the more popular choice among the two, I found Pyglet to be a much more simpler library to understand, learn and write code, which is the main influence on why I chose this library, especially for a small project such as this.
+There were really only two options that I had while choosing which Python library to use for my project, which was Pyglet and Pygame [[2]](https://www.pygame.org/wiki/about). While Pygame is the more popular choice among the two, I found Pyglet to be a much more simpler library to understand, learn and write code with, which is the main influence on why I chose this library, especially for a project on a smaller size such as this.
 
-Pyglet is also object-oriented and has more more modern functionalities, such as built-in support for OpenGL making Pyglet much faster than Pygame.
+Pyglet is also object-oriented and has more more modern functionalities, such as built-in support for OpenGL [[3]](https://www.opengl.org/) making Pyglet much faster than Pygame.
 
 For the reasons listed above, I decided to use Pyglet as my library of choice.
 
@@ -106,9 +111,19 @@ This experience has helped a lot in familiarizing myself in the Python language 
 
 ### Overall experience
 
-My overall exprience with Pyglet was very good. After reading the documentation and watching some tutorials, I was comfortable with the library functionalities and started to focus more on the logical part of the game.
+My overall exprience with Pyglet was very good. After reading the documentation, I was comfortable with the library functionalities and started to focus more on the logical part of the game. Other online resources [[4]](https://www.youtube.com/playlist?list=PL42MzI01SYj7unM-kMN1nf70smlIsLDc0) have also helped me tremendously in the building of this program, I'd be lying if I said I did not follow any tutorial on how to build the frame and main functionalities of the game. However, using the already built frame of the snake game, I also gave the app some of my personal touch and implementations to the game, namely making the game more challenging by adding obstacles, as well as showing more texts and using more sounds.
+
+Because of time limitations, there are some more features I haven't had a chance to experiment on as well as optimizing the already existing game logic such as the obstacles in the game. As of now, the obstacle is generated randomly with no limitations, which means that if you're really unlucky, they could literally on top of your snake and make you lose the game instantly. That is why even after handing in this project, I'd still like to work on this project some more in my free time. It really was a fun time putting this all together.
 
 As Python is an extremely popular choice for beginner programmers. I would highly recommend anyone who picked up Python and is interested in game development to tryout Pyglet before moving on to the bigger and more confusing game engines used today.
 
+## References
+[1] [https://github.com/pyglet/pyglet/blob/master/LICENSE](https://github.com/pyglet/pyglet/blob/master/LICENSE)
+
+[2] [https://www.pygame.org/wiki/about](https://www.pygame.org/wiki/about)
+
+[3] [https://www.opengl.org/](https://www.opengl.org/)
+
+[4] [Snake game tutorial by Justin Robertson](https://www.youtube.com/playlist?list=PL42MzI01SYj7unM-kMN1nf70smlIsLDc0)
 
 
