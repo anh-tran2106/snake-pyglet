@@ -43,4 +43,4 @@ This will also help me get a little feel for creating games and help kick start 
 
 After launching the game, simply start by pressing any of the arrow keys on your keyboard to move.
 
-Your objective is to eat as many 🍎 as you can while avoiding collision with the obsticles and the edges of the screen. Good luck!
+Your objective is to eat as many 🍎's as you can while avoiding collision with the obsticles and the edges of the screen. Good luck!
