@@ -58,7 +58,7 @@ def on_key_press(symbol, modifiers):
             snake_dy = 0
 ...
 ```
-4. Using the `resource` module to import sound effects into the project and `media` module to play sounnds during the game
+4. Using the `resource` module to import sound effects into the project and `media` module to play sounds during the game
 
 ```
 def update(dt):
