@@ -97,7 +97,7 @@ After a little digging on the internet, I have found that there is little inform
 
 ## Why I chose Pyglet
 
-There were really only two options that I had while choosing which Python library to use for my project, which was Pyglet and Pygame [[2]](https://www.pygame.org/wiki/about). While Pygame is the more popular choice among the two, I found Pyglet to be a much more simpler library to understand, learn and write code with, which is the main influence on why I chose this library, especially for a project on a smaller size such as this.
+There were really only two options that I had while choosing which Python library to use for my project, which was Pyglet and Pygame [[2]](https://www.pygame.org/wiki/about). While Pygame is the more popular choice among the two, I found Pyglet to be a much simpler library to learn and write code with, which is the main influence on why I chose this library, especially for a project on a smaller size such as this.
 
 Pyglet is also object-oriented and has more modern functionalities, such as built-in support for OpenGL [[3]](https://www.opengl.org/) making Pyglet much faster than Pygame.
 
@@ -107,13 +107,13 @@ For the reasons listed above, I decided to use Pyglet as my library of choice.
 
 ### influence in learning Python
 
-This experience has helped a lot in familiarizing myself in the Python language and its syntax, and learning how to import and use open-source libraries. Additionally, not only did I have the chance to try out the functionalities of the `Pyglet` library, I also made use of other common Python libraries such as `itertools` and `random` for my program.
+This experience has helped a lot in familiarizing myself in the Python language and its syntax, as well as learning how to import and use open-source libraries. Additionally, not only did I have the chance to try out the functionalities of the `Pyglet` library, I also made use of other common Python libraries such as `itertools` and `random` for my program.
 
 ### Overall experience
 
 My overall exprience with Pyglet was very good. After reading the documentation, I was comfortable with the library functionalities and started to focus more on the programming the logical part of the game. Other online resources [[4]](https://www.youtube.com/playlist?list=PL42MzI01SYj7unM-kMN1nf70smlIsLDc0) have also helped me tremendously in the building process of this program, I'd be lying if I said I did not follow any tutorial on how to build the frame and main functionalities of the game. However, using the already built frame of the snake game, I also gave the app some of my personal touch and implementations, namely making the game more challenging by adding obstacles, as well as showing more texts and using more sounds.
 
-Because of time limitations, there are some more features I haven't had a chance to experiment on as well as optimizing the already existing game logic such as the obstacles in the game. As of now, the obstacle is generated randomly with no limitations, which means that if you're really unlucky, they could literally spawn on top of your snake and make you lose the game instantly. That is why even after handing in this project, I'd still like to work on it some more in my free time. It really was a fun time putting this all together.
+Because of time limitations, there are some more features I haven't had a chance to experiment on as well as optimizing the already existing game logic such as the obstacles in the game. As of now, the obstacle is generated randomly with no limitations, which means that if you're unlucky, they could literally spawn on top of your snake and make you lose the game instantly. That is why even after handing in this project, I'd still like to work on it some more in my free time. It really was a fun time putting this all together.
 
 As Python is an extremely popular choice for beginner programmers. I would highly recommend anyone who picked up Python and is interested in game development to tryout Pyglet before moving on to the bigger and more confusing game engines used today.
 
