@@ -5,6 +5,8 @@
 
 This repository is my work for the Exploration Activity #1 of CS2613 - Fall 2023 - University of New Brunswick. This is forked from a Github profile created by Github Classroom.
 
+**NOTE:** I essentially followed this amazing [tutorial series](https://www.youtube.com/playlist?list=PL42MzI01SYj7unM-kMN1nf70smlIsLDc0) by Justin Robertson and added more features like random obstacles and taylored the aesthetics of the game to my style.
+
 ## Getting Started
 
 ### Prerequisites
